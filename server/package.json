@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.ts ",
+  "repository": "git@github.com:whiteHeart313/Nassar_Factory.git",
+  "author": "Ammar & Nassar",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "serve": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/express-validator": "^3.0.2",
+    "@types/node": "^22.13.9",
+    "nodemon": "^3.1.9"
+  }
+}
