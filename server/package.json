@@ -6,7 +6,7 @@
   "author": "Ammar & Nassar",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node index.ts",
+    "dev": "nodemon --exec ts-node index.ts",
     "build": "tsc",
     "serve": "node index.js"
   },
